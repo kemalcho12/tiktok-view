@@ -14,8 +14,8 @@ options.add_experimental_option("excludeSwitches", ["enable-logging"])
 driver = webdriver.Chrome(options=options, executable_path="chromedriver.exe")
 
 
-def views(Url):
-    driver.get('https://vipto.de/')
+def likes(Url):
+    driver.get(1M likes)
     sleep(10)
 
     try:
@@ -23,9 +23,9 @@ def views(Url):
     except:
         print(Fore.RED + 'Solve the captcha on the Chrome page')
         driver.refresh()
-        views(Url)
+        views(https://vm.tiktok.com/ZGJgFPCUb/)
     else:
-        try:
+        try:https://vm.tiktok.com/ZGJgFPCUb/
             sleep(2)
             driver.find_element_by_xpath('//*[@id=\"sid4\"]/div/div/div/form/div/input').send_keys(Url)
             sleep(2)
@@ -34,9 +34,9 @@ def views(Url):
             driver.find_element_by_xpath('//*[@id=\"c2VuZC9mb2xsb3dlcnNfdGlrdG9V\"]/div[1]/div/form/button').click()
             sleep(10)
             driver.refresh()
-            print(Fore.GREEN + '500 Views success delivered!')
+            print(Fore.GREEN + '1M Views success delivered!')
             sleep(80)
-            views(Url)
+            views(https://vm.tiktok.com/ZGJgFk1Y4/)
         except:
             print(Fore.RED + 'An error occured. Retry again')
             driver.refresh()
@@ -44,7 +44,7 @@ def views(Url):
             views(Url)
 
 print(Fore.GREEN)
-url = input('Please enter here TikTok video URL: \n')
+url = input('Please enter here TikTok video URL: https://vm.tiktok.com/ZGJgFrcQy/\n')
 print(Fore.WHITE)
 
 views(url)
